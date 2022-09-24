@@ -29,3 +29,5 @@ connectDB()
 app.listen(3000, (req, res) => {
     console.log("server start on port 3000")
 });
+
+console.log("a")
