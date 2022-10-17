@@ -30,5 +30,4 @@ app.listen(3000, (req, res) => {
     console.log("server start on port 3000")
 });
 
-var a=30
-var v=12
+console.log("test");
