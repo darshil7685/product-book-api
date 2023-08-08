@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 app.use(morgan('dev'))
 
 app.use(express.static('./public'));
-68
+
 /** Api middleware */
 app.use('/api', routes)
 /**Error middleware */
