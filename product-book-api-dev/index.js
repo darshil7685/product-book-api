@@ -16,7 +16,7 @@ app.use(express.static('./public'));
 
 /** Api middleware */
 app.use('/api', routes)
-
+console.log("1212");
 /**Error middleware */
 app.use((error, req, res, next) => {
     res.status(error.status || 500).json({
