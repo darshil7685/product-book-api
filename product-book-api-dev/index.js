@@ -16,8 +16,7 @@ app.use(express.static('./public'));
 
 /** Api middleware */
 app.use('/api', routes)
-/Hello
-console.log("Hello");
+
 /**Error middleware */
 app.use((error, req, res, next) => {
     res.status(error.status || 500).json({
@@ -32,4 +31,4 @@ app.listen(3000, (req, res) => {
     console.log("server start on port 3000")
 });
 
-console.log("a")
+console.log("test");
